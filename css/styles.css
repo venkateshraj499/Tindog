@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+#title{
+    background-color: #ff4c68;
+    height: 550px;
+}
+.navbar-brand{
+    font-family: "poppins";
+    margin-left: 12%;    
+    font-size: 50px;
+    color: white;    
+}
+
+.navbar-nav{
+    margin-left: 60%;
+    font-size: 30px;
+}
+.nav-link{
+    font-weight: 500;
+}
+
+h1{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 25%;
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+.title-image{   
+    transform: rotate(20deg);
+    width: 20%;
+    right: 10%;
+    position:absolute;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+}
+.feature{
+    margin:0;
+    padding-top: 7%;
+    padding-left:7%;
+    padding-right: 15%;
+  
+}
+.feature h3{
+    color: #ef8178;
+    margin-top: 10px;
+    text-align: center;
+}
+.feature p{
+    color: #8f8f8f;
+    text-align: center;
+}
+.icon{
+    color: #ef8178;
+    margin-left:2%;
+}
+#testimonials{
+    background-color: #ef8178;  
+    font-family: "poppins";
+    color: white;
+    text-align: center;
+}
+#press{
+    background-color: #ef8178;
+    padding: 5% 0% 5% 0;
+    text-align: center;
+}
+#press img{
+    margin-right: 3%;
+}
+.slide h3{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 2% 20% 0% 20%;
+}
+.slide img{
+    width: 15%;
+    border-radius: 50%;
+}
+.slide em{
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+    font-family: "poppins";   
+    margin-top: 3%;
+}
+.heading h3{
+    font-size: 50px;
+}
+.row{
+    text-align: center;
+}
+.details{
+  
+   margin:3% 4% 3% 4%;
+   padding:0 0 1% 0;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+} 
+.details h3{
+    font-family: "poppins";
+    background-color: rgb(197, 218, 248);
+    font-size: 40px;
+    
+    padding:2%;
+}
+.details h2{
+    font-family: "poppins";
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 40px;
+}
+.details p{
+    font-family: "poppins";
+    font-size: 20px;
+}
+.details button {
+  width: 80%;
+  padding:3%;
+  font-size: 20px;
+}
+#cta{
+    color:white;
+    font-family: "poppins";
+    text-align: center;
+    
+     padding :2%;
+     background-color: #ff4c68;
+    
+}
+#cta h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#footer{
+    text-align: center;
+}
+#footer i{
+    margin:0.3%;
+}
+@media (max-width:1028px){
+ .navbar-brand{
+     margin-left: 5%;;
+ }
+  h1{
+      margin-left: 0;
+      text-align: center;
+  }  
+  .title-image{
+      display: none;
+  }
+  #press img{
+      margin:5%;
+  }
+    
+}
